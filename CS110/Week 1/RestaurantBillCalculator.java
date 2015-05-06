@@ -9,8 +9,8 @@ public class RestaurantBillCalculator
    public static void main(String [] args)
    {
       // Constants
-      double TAX_RATE = 6.75;
-      double TIP_RATE = 15;
+      final double TAX_RATE = 6.75;
+      final double TIP_RATE = 15;
       
       // Variables
       double mealCharge, tax, tip, total;
